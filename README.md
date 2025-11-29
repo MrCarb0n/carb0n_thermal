@@ -1,4 +1,4 @@
-# Mido Thermal Config (Magisk/KSU Module)
+# Carb0n Thermal (Magisk/KSU Module)
 
 **MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7, 2025)**
 

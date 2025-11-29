@@ -1,10 +1,22 @@
 # customize.sh
 # Runs in Magisk's BusyBox ash shell with "Standalone Mode" enabled
 
-ui_print "- Installing Mido Thermal Config..."
+ui_print "- Installing Carb0n Thermal..."
 
-# Extract files is handled automatically by the installer before this script runs
-# unless SKIPUNZIP=1 is set (which we don't use).
+# Device Check
+ui_print "- Checking device..."
+DEVICE=$(getprop ro.product.device)
+
+if [ "$DEVICE" != "mido" ]; then
+  ui_print "*************************************************"
+  ui_print "! Wrong Device!"
+  ui_print "! This module is for Redmi Note 4 (mido) only."
+  ui_print "! Your device is detected as: $DEVICE"
+  ui_print "*************************************************"
+  abort
+else
+  ui_print "- Device match: mido"
+fi
 
 ui_print "- Setting permissions..."
 
