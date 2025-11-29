@@ -27,4 +27,8 @@ set_perm $MODPATH/system/etc/thermal-engine.conf 0 0 0644
 # Note: Magisk handles /system/vendor -> /vendor mapping
 set_perm $MODPATH/system/vendor/etc/thermal-engine.conf 0 0 0644
 
+ui_print "- Cleaning up..."
+rm -f $MODPATH/update.json
+rm -f $MODPATH/changelog.md
+
 ui_print "- Installation complete!"
