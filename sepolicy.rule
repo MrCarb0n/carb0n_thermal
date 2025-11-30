@@ -1,2 +1,20 @@
-# Allow hal_power_default to bypass DAC permissions
+# =====================================================================
+#                            
+#  _____         _   ___     
+# |     |___ ___| |_|   |___ 
+# |   --| .'|  _| . | | |   |
+# |_____|__,|_| |___|___|_|_|
+#   T H E R M A L by MrCarb0n
+#                            
+# =====================================================================
+#  SELINUX POLICY RULES
+#  MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7, 2025)
+#
+#  Author : Tiash (@MrCarb0n)
+#  Git    : https://github.com/MrCarb0n/carb0n_thermal.git
+#  Version: v2.7 • Smooth & Balanced Performance
+#  License: MIT License
+# =====================================================================
+
+
 allow hal_power_default hal_power_default capability dac_override

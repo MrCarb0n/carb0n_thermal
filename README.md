@@ -1,4 +1,18 @@
+```text
+                           
+ _____         _   ___     
+|     |___ ___| |_|   |___ 
+|   --| .'|  _| . | | |   |
+|_____|__,|_| |___|___|_|_|
+  T H E R M A L by MrCarb0n
+                           
+```
+
 # Carb0n Thermal (Magisk/KSU Module)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-v2.7-blue.svg)](https://github.com/MrCarb0n/carb0n_thermal/releases)
+[![Device](https://img.shields.io/badge/device-Redmi%20Note%204%20(Mido)-orange.svg)](https://github.com/MrCarb0n/carb0n_thermal)
 
 **MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7, 2025)**
 
@@ -29,3 +43,8 @@ This Magisk/KernelSU module provides a custom thermal engine configuration for t
 ## Author
 
 - **Tiash** (@MrCarb0n)
+- GitHub: [MrCarb0n/carb0n_thermal](https://github.com/MrCarb0n/carb0n_thermal)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
