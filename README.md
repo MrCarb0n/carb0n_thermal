@@ -14,7 +14,7 @@ This Magisk/KernelSU module provides a custom thermal engine configuration for t
 
 ## Installation
 
-1. Download the latest `mido_thermal_module.zip` from the [Releases](https://github.com/MrCarb0n/midothermal/releases) page.
+1. Download the latest `mido_thermal_module.zip` from the [Releases](https://github.com/MrCarb0n/carb0n_thermal/releases) page.
 2. Open **Magisk** or **KernelSU** app.
 3. Go to **Modules** -> **Install from Storage**.
 4. Select the zip file and install.
