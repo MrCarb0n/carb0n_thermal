@@ -4,7 +4,7 @@
 |     |___ ___| |_|   |___ 
 |   --| .'|  _| . | | |   |
 |_____|__,|_| |___|___|_|_|
-  T H E R M A L by MrCarb0n
+ T H E R M A L by MrCarb0n
                            
 ```
 
@@ -14,7 +14,7 @@
 [![Version](https://img.shields.io/badge/version-v2.7-blue.svg)](https://github.com/MrCarb0n/carb0n_thermal/releases)
 [![Device](https://img.shields.io/badge/device-Redmi%20Note%204%20(Mido)-orange.svg)](https://github.com/MrCarb0n/carb0n_thermal)
 
-**MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7, 2025)**
+**MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7)**
 
 This Magisk/KernelSU module provides a custom thermal engine configuration for the **Redmi Note 4 (Mido)** equipped with the **MSM8953** chipset. It aims to balance performance and thermal management, ensuring smooth operation without excessive throttling.
 

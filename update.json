@@ -2,5 +2,8 @@
   "version": "v2.7",
   "versionCode": 270,
   "zipUrl": "https://github.com/MrCarb0n/carb0n_thermal/releases/latest/download/carb0n_thermal_mido_v2.7.zip",
-  "changelog": "https://raw.githubusercontent.com/MrCarb0n/carb0n_thermal/master/changelog.md"
+  "changelog": "https://raw.githubusercontent.com/MrCarb0n/carb0n_thermal/master/changelog.md",
+  "name": "Carb0n Thermal",
+  "author": "Tiash (@MrCarb0n)",
+  "description": "Custom thermal engine configuration for Redmi Note 4 (Mido) - Final Smooth Throttling Edition."
 }

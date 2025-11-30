@@ -1,15 +1,13 @@
 #!/system/bin/sh
 # =====================================================================
-#                            
 #  _____         _   ___     
 # |     |___ ___| |_|   |___ 
 # |   --| .'|  _| . | | |   |
 # |_____|__,|_| |___|___|_|_|
-#   T H E R M A L by MrCarb0n
-#                            
+#  T H E R M A L by MrCarb0n
 # =====================================================================
 #  MAGISK/KERNELSU MODULE INSTALLER SCRIPT
-#  MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7, 2025)
+#  MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7)
 #
 #  Author : Tiash (@MrCarb0n)
 #  Git    : https://github.com/MrCarb0n/carb0n_thermal.git
@@ -17,14 +15,11 @@
 #  License: MIT License
 # =====================================================================
 
-
-
-ui_print " "
 ui_print " _____         _   ___     "
 ui_print "|     |___ ___| |_|   |___ "
 ui_print "|   --| .'|  _| . | | |   |"
 ui_print "|_____|__,|_| |___|___|_|_|"
-ui_print "  T H E R M A L by MrCarb0n"
+ui_print " T H E R M A L by MrCarb0n"
 ui_print " "
 ui_print "- Installing Carb0n Thermal..."
 
