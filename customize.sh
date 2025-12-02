@@ -38,17 +38,54 @@ else
   ui_print "- Device match: mido"
 fi
 
+ui_print "- Searching system for thermal config..."
+
+THERMAL_TARGET=""
+for D in /vendor/etc /system/etc /system/vendor/etc /odm/etc /product/etc; do
+  for N in thermal-engine.conf thermal-engine-"$DEVICE".conf thermal.conf; do
+    if [ -f "$D/$N" ]; then
+      THERMAL_TARGET="$D/$N"
+      break
+    fi
+  done
+  [ -n "$THERMAL_TARGET" ] && break
+  P=$(ls "$D"/thermal-engine*.conf 2>/dev/null | head -n 1)
+  if [ -n "$P" ]; then
+    THERMAL_TARGET="$P"
+    break
+  fi
+done
+
+if [ -z "$THERMAL_TARGET" ]; then
+  THERMAL_TARGET="/vendor/etc/thermal-engine.conf"
+  ui_print "- No existing thermal found, defaulting to $THERMAL_TARGET"
+else
+  ui_print "- Found thermal at $THERMAL_TARGET"
+fi
+
+THERMAL_DIR=$(dirname "$THERMAL_TARGET")
+case "$THERMAL_DIR" in
+  /system/*) THERMAL_MAP_DIR="$MODPATH/system/${THERMAL_DIR#/system/}";;
+  /*)        THERMAL_MAP_DIR="$MODPATH/system/${THERMAL_DIR#/}";;
+esac
+mkdir -p "$THERMAL_MAP_DIR"
+
+CONF_FILE="$MODPATH/thermal-engine.conf"
+THERMAL_DEST="$THERMAL_MAP_DIR/$(basename "$THERMAL_TARGET")"
+cp -fp "$CONF_FILE" "$THERMAL_DEST"
+
+:
+
 ui_print "- Setting permissions..."
 
-# Set permissions for system config
-set_perm $MODPATH/system/etc/thermal-engine.conf 0 0 0644
-
-# Set permissions for vendor config
-# Note: Magisk handles /system/vendor -> /vendor mapping
-set_perm $MODPATH/system/vendor/etc/thermal-engine.conf 0 0 0644
+if [ -f "$THERMAL_DEST" ]; then
+  set_perm "$THERMAL_DEST" 0 0 0644
+fi
+:
 
 ui_print "- Cleaning up..."
-rm -f $MODPATH/update.json
-rm -f $MODPATH/changelog.md
+for f in update.json changelog.md README.md LICENSE; do
+  rm -f "$MODPATH/$f"
+done
 
 ui_print "- Installation complete!"
