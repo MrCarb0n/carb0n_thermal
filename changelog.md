@@ -1,23 +1,22 @@
 <!--
-=====================================================================
- _____         _   ___     
-|     |___ ___| |_|   |___ 
-|   --| .'|  _| . | | |   |
-|_____|__,|_| |___|___|_|_|
- T H E R M A L by MrCarb0n
-=====================================================================
- CHANGELOG
- MIDO NEVER DIES — GUARDIAN EDITION (v2.8)
 
- Author : Tiash (@MrCarb0n)
- Git    : https://github.com/MrCarb0n/carb0n_thermal.git
- License: MIT License
+| |**\_ \_**| |\_| |**_
+| --| .'| _| . | | | |
+|\_\_\_**|**,|_| |_**|_\_\_|_|\_|
+T H E R M A L by MrCarb0n
+=====================================================================
+CHANGELOG
+MIDO NEVER DIES — GUARDIAN EDITION (v2.8)
+
+Author : Tiash (@MrCarb0n)
+Git : https://github.com/MrCarb0n/carb0n_thermal.git
+License: MIT License
 =====================================================================
 -->
 
 # Changelog
 
-## v2.8 (Guardian Edition) - December 2, 2025
+## v2.8
 
 **Guardian of battery health** - Separate module that protects and extends battery lifespan.
 
@@ -66,13 +65,7 @@ To protect your battery, performance is traded:
 
 ---
 
-## v2.8 (Standard) - December 2, 2025
-
-- Version bump and stability improvements.
-- Refined thermal management parameters.
-- Updated all project references to v2.8.
-
-## v2.7 (2025)
+## v2.7
 
 - Initial release of the Magisk/KSU module.
 - Based on "FINAL SMOOTH THROTTLING EDITION" config.
