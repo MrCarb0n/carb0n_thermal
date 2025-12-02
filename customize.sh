@@ -72,7 +72,7 @@ mkdir -p "$THERMAL_MAP_DIR"
 
 CONF_FILE="$MODPATH/thermal-engine.conf"
 THERMAL_DEST="$THERMAL_MAP_DIR/$(basename "$THERMAL_TARGET")"
-cp -fp "$CONF_FILE" "$THERMAL_DEST"
+mv -f "$CONF_FILE" "$THERMAL_DEST"
 
 :
 
