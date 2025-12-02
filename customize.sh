@@ -7,11 +7,11 @@
 #  T H E R M A L by MrCarb0n
 # =====================================================================
 #  MAGISK/KERNELSU MODULE INSTALLER SCRIPT
-#  MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7)
+#  MIDO NEVER DIES (v2.8)
 #
 #  Author : Tiash (@MrCarb0n)
 #  Git    : https://github.com/MrCarb0n/carb0n_thermal.git
-#  Version: v2.7 • Smooth & Balanced Performance
+#  Version: v2.8
 #  License: MIT License
 # =====================================================================
 

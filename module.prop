@@ -6,18 +6,18 @@
 #  T H E R M A L by MrCarb0n
 # =====================================================================
 #  MAGISK MODULE PROPERTIES
-#  MIDO NEVER DIES — FINAL SMOOTH THROTTLING EDITION (v2.7)
+#  MIDO NEVER DIES (v2.8)
 #
 #  Author : Tiash (@MrCarb0n)
 #  Git    : https://github.com/MrCarb0n/carb0n_thermal.git
-#  Version: v2.7 • Smooth & Balanced Performance
+#  Version: v2.8
 #  License: MIT License
 # =====================================================================
 
 id=carb0n_thermal
 name=Carb0n Thermal
-version=v2.7
-versionCode=270
+version=v2.8
+versionCode=280
 author=Tiash (@MrCarb0n)
-description=Custom thermal engine configuration for Redmi Note 4 (Mido) - Final Smooth Throttling Edition.
+description=Advanced thermal management for Redmi Note 4 (Mido) - optimizes battery health and performance.
 updateJson=https://raw.githubusercontent.com/MrCarb0n/carb0n_thermal/master/update.json

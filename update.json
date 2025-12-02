@@ -1,9 +1,9 @@
 {
-  "version": "v2.7",
-  "versionCode": 270,
-  "zipUrl": "https://github.com/MrCarb0n/carb0n_thermal/releases/latest/download/carb0n_thermal_mido_v2.7.zip",
-  "changelog": "https://raw.githubusercontent.com/MrCarb0n/carb0n_thermal/master/changelog.md",
-  "name": "Carb0n Thermal",
+  "version": "v2.8",
+  "versionCode": 280,
+  "zipUrl": "https://github.com/MrCarb0n/carb0n_thermal/releases/latest/download/carb0n_thermal_vX.X.zip",
+  "changelog": "https://raw.githubusercontent.com/MrCarb0n/carb0n_thermal/battery/changelog.md",
+  "name": "Carb0n Thermal Guardian",
   "author": "Tiash (@MrCarb0n)",
-  "description": "Custom thermal engine configuration for Redmi Note 4 (Mido) - Final Smooth Throttling Edition."
+  "description": "Guardian of your battery health - ultra-aggressive protection keeping charging temps below 42°C."
 }
